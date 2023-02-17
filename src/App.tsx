@@ -40,6 +40,7 @@ const App = () => {
                     <Route path="/faq" element={<Faq />} />
                 </Routes>
                 <Footer />
+                <button onClick={() => setTheme('light')} />
             </Router>
         </div>
     )
